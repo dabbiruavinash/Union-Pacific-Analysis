@@ -1,0 +1,39 @@
+union_pacific_analysis/
+├── main.py
+├── config/
+│   ├── __init__.py
+│   ├── settings.py
+│   └── constants.py
+├── core/
+│   ├── __init__.py
+│   ├── spark_session.py
+│   ├── data_processor.py
+│   ├── schema_manager.py
+│   └── cache_manager.py
+├── models/
+│   ├── __init__.py
+│   ├── base_model.py
+│   ├── train_model.py
+│   ├── shipment_model.py
+│   └── scd_models.py
+├── transformations/
+│   ├── __init__.py
+│   ├── basic_transforms.py
+│   ├── scd_transforms.py
+│   ├── join_optimizer.py
+│   └── skew_handler.py
+├── utils/
+│   ├── __init__.py
+│   ├── file_handler.py
+│   ├── broadcast_utils.py
+│   ├── accumulator_utils.py
+│   └── performance_utils.py
+├── data/
+│   ├── input/
+│   ├── output/
+│   └── processed/
+├── tests/
+│   ├── __init__.py
+│   ├── test_transformations.py
+│   └── test_models.py
+└── requirements.txt
